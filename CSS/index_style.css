@@ -27,3 +27,30 @@ p {
     
 }
 
+table{border-collapse: collapse;}
+table th {
+  background-color: rgba(90,62,149,255);
+  
+}
+
+td,th {
+  border: 1px solid rgb(200, 187, 187);
+  padding: 8px;
+  color: #fff;
+}
+
+.buttonClass {
+    font-size:15px;
+    font-family:Verdana,sans-serif;
+    width:140px;
+    height:30px;
+    border-width:1px;
+    color:rgba(15,26,88,255);
+    border-color:rgba(255, 255, 255, 1);
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    background:rgba(255, 255, 255, 1);
+}
