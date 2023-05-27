@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Istambul[
+<!ELEMENT Istambul (item*)>
+<!ELEMENT item (Mosques, Monuments, Baths, Food)>
+<!ELEMENT Mosques (#PCDATA)>
+<!ELEMENT Monuments (#PCDATA)>
+<!ELEMENT Baths (#PCDATA)>
+<!ELEMENT Food (#PCDATA)>
+]>
+
+<Istambul>
+  <item>
+    <Mosques>Hagia Sophia Mosque</Mosques>
+    <Monuments>Topkapi Palace</Monuments>
+    <Baths>Cemberlitas Hamami</Baths>
+    <Food>Kebab (Döner,Adana,Shish,etc.)</Food>
+  </item>
+  <item>
+    <Mosques>Blue Mosque</Mosques>
+    <Monuments>Dolmabahçe Palace</Monuments>
+    <Baths>Çemberlitaş Hamami</Baths>
+    <Food>Baklava</Food>
+  </item>
+  <item>
+    <Mosques>Süleymaniye Mosque</Mosques>
+    <Monuments>Galata Tower</Monuments>
+    <Baths>Sülemaniye Hamamı</Baths>
+    <Food>Simit</Food>
+  </item>
+  <item>
+    <Mosques>Eyüp Sultan Mosque</Mosques>
+    <Monuments>Basilica Cistern</Monuments>
+    <Baths>Kilic Ali Pasa Hamami</Baths>
+    <Food>Lahmacun</Food>
+  </item>
+  <item>
+    <Mosques>Ortaköy Mosque</Mosques>
+    <Monuments>Column of Constantine</Monuments>
+    <Baths>Galatasaray Hamami</Baths>
+    <Food>Balık ekmek</Food>
+  </item>
+  <item>
+    <Mosques>Rüstem Pasha Mosque</Mosques>
+    <Monuments>Bosphorus Bridge</Monuments>
+    <Baths>Cağaloğlu Hamamı</Baths>
+    <Food>Kunefe</Food>
+  </item>
+</Istambul>
