@@ -30,6 +30,7 @@ p {
 table{border-collapse: collapse;}
 table th {
   background-color: rgba(90,62,149,255);
+  padding: 8px;
   
 }
 
