@@ -30,13 +30,13 @@ p {
 table{border-collapse: collapse;}
 table th {
   background-color: rgba(90,62,149,255);
-  padding: 8px;
+  padding: 5%;
   
 }
 
 td,th {
   border: 1px solid rgb(200, 187, 187);
-  padding: 8px;
+  padding: 5%;
   color: #fff;
 }
 
