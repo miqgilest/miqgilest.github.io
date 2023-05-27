@@ -1,0 +1,144 @@
+
+html {
+    background: url(../Images/Common/sss.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+header {
+    background-color: rgba(74,51,139,255);
+    color: white;
+    padding: 10px;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h2{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: rgba(74,51,139,255);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.foot{
+    padding: 4%;
+}
+
+.dropdown a {
+    display:inline;
+    position: relative;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.dropdown a:hover {
+
+    color: #fff;
+    background-color: rgba(180,124,197,255);
+}
+
+#paragraf1{
+    text-align: justify;
+    padding: 5%;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* For tablets: */
+@media only screen and (min-width: 500px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+
+    .button1{
+        display: none;
+    }
+}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media (max-width: 500px) {
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(180,124,197,255);
+    }
+
+    button{
+        background-color: rgba(180,124,197,255);
+    }
+    
+    .dropdown {
+        display: inline-block;
+        position: relative;
+        width: 100px;
+    }
+   
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: auto;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        display: block;
+        color: #fff;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+        color: #FFFFFF;
+        background-color: rgba(180,124,197,255);
+    }
+}

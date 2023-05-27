@@ -1,0 +1,46 @@
+
+.img-galeria:hover {
+	filter: brightness(50%);
+	cursor: pointer;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    
+}
+figure{
+  font-size: larger;
+  color: #fff;
+  border-radius: 2px;
+}
+
+.grid-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+}
+
+.grid-item img {
+
+  max-width: 100%;
+  height: auto;
+  border: 5px solid rgb(255, 255, 255);
+
+}
+
+.grid-item figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}

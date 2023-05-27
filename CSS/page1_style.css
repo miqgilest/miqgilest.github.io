@@ -1,0 +1,26 @@
+.img1 {
+    width: 100%;
+    display: block;
+    padding: 2%;
+}
+  
+p {
+    text-align: justify;
+    font-size: 18px;
+    color: #fff;
+    
+}
+li{
+    text-align: justify;
+    font-size: 18px;
+    color: #fff;
+    padding: 15px;
+}
+.center1{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.goap{
+  text-align: center;
+}

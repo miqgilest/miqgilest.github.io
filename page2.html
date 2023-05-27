@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="CSS/page2_style.css">
+    <link rel="stylesheet" href="CSS/common_style.css">
+
+    <script src="./JS/formulario.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="Images/Common/istanbul_icon_132297.png">
+
+    <title>page2</title>
+</head>
+<body>
+  <header>
+      <h1 id="mainpage">City of Istambul</h1>
+          <div class="dropdown">
+            <button class="button1">Menu</button>
+              <div class="dropdown-content">
+              <a href="index.html">Index</a>
+              <a href="page1.html">Monuments</a>
+              <a href="page2.html">Contact</a>
+              <a href="gallery.html">Gallery</a>
+              </div>
+          </div>
+  </header>
+  <main class="container">
+    <section class="col-6 col-s-6">
+      <h2>Contact Form</h2>
+  <div class="cuest">    
+    <fieldset>
+  <p><b>Fill in the form with your data</b></p>
+  <form action="procesar.php" method="post" onsubmit="return validarFormulario()">
+  <label for="nombre">Name and Surname:</label> 
+  <br>
+  <input type="text" id="nombre" name="nombre" required>
+  <br><br>
+  <label for="correo">Email:</label>
+  <br>
+  <input type="email" id="correo" name="correo" required>
+  <br><br>
+  <label for="fecha">Birthdate:</label>
+  <br>
+  <input type="date" id="fecha" name="fecha" required>
+  <br><br>
+  <label for="ciudad">City and Country:</label>
+  <br>
+  <input type="text" id="ciudad" name="ciudad" required>
+  <br><br>
+  <label>Sex:</label>
+  <br>
+  <input type="radio" id="masculino" name="sexo" value="Masculino" required>
+  <label for="masculino">Male</label>
+  <input type="radio" id="femenino" name="sexo" value="Femenino">
+  <label for="femenino">Female</label>
+  <br><br>
+  <label for="telefono">Telephone:</label>
+  <br>
+  <input type="tel" id="telefono" name="telefono" required>
+  <br><br>
+  <label for="contrasena">Password:</label>
+  <br>
+  <input type="password" id="contrasena" name="contrasena" required>
+  <br><br>
+  <label for="repetir-contrasena">Repeat password:</label>
+  <br>
+  <input type="password" id="repetir-contrasena" name="repetir-contrasena" required>
+  <br><br>
+  <label for="comentarios">Message:</label>
+  <br>
+  <textarea id="comentarios" name="comentarios"></textarea>
+  <br><br>
+  <button class="buttonClass" type="submit">Send</button>
+    </form>
+    </fieldset>
+  </div>
+  </section>
+  <section class="col-6 col-s-6">
+
+    <!-- Primer cuestionario -->
+<h2>What do you know?</h2>
+<div class="cuest">
+<fieldset>
+<p><b>What do you know about Istanbul?</b></p>
+<p>1. In what date did the Turks conquer the city of Istanbul?</p>
+<input type="date" name="discovery" id="q1">
+<br><br>
+<p>2. How many weeks of siege did the city of Istanbul endure?</p>
+<input type="number" name="novel" min="1" max="10000" id="q2">
+<br><br>
+<p>3. To which country does the city of Istanbul belong?</p>
+<select id="q3">
+  <option value="empty">-</option>
+  <option value="Siria">Siria</option>
+  <option value="Grece">Grece</option>
+  <option value="Bulgaria">Bulgaria</option>
+  <option value="Turkey">Turkey</option>
+  <option value="Macedonia">Macedonia</option> <!-- Agregado Estambul -->
+</select>
+<br><br>
+<p>4. Which sultan built the blue mosque?</p>
+<input type="radio" name="sultan" value="Mehmed1" id="q41"> Mehmed V<br>
+<input type="radio" name="sultan" value="Suleiman" id="q42"> Suleiman I<br>
+<input type="radio" name="sultan" value="Ahmed" id="q43"> Ahmed I<br>
+<input type="radio" name="sultan" value="Osman" id="q44"> Osman I<br>
+<input type="radio" name="sultan" value="Mehmed2" id="q45"> Mehmed II<br>
+<br><br>
+<p>5. On which two continents is the city of Istanbul located?</p>
+<input type="checkbox" name="continents" value="Asia" id="q51"> Asia<br>
+<input type="checkbox" name="continents" value="Africa" id="q52"> Africa<br>
+<input type="checkbox" name="continents" value="Oceania" id="q53"> Oceania<br>
+<input type="checkbox" name="continents" value="Europe" id="q54"> Europe<br>
+<br><br>
+<button class="buttonClass" onclick="check()">Check</button>
+<p id="mark"></p>
+<p id="feedback"></p>
+</fieldset>
+</div>
+  </section>
+  </main>
+  <footer class="foot">
+    <a class="goup" href="#mainpage"><img src="Images/Common/up.png" alt="back to top"></a>
+    <br><br>
+    <a>By Miquel Albert Gil Esteve  |  All rights reserved © 2023</a>
+  </footer>
+    
+</body>
+</html>
